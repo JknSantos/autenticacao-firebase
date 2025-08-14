@@ -32,7 +32,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:hint="Email"
-            android:drawableEnd="@android:drawable/ic_dialog_email"
+            android:drawableEnd="@drawable/ic_email"
             android:drawablePadding="12dp"
             android:inputType="textEmailAddress" />
 
@@ -45,7 +45,7 @@
             android:hint="Senha"
             android:inputType="textPassword"
             android:drawablePadding="12dp"
-            android:drawableEnd="@android:drawable/ic_menu_view"/>
+            android:drawableEnd="@drawable/ic_visibility"/>
 
         <Button
             android:id="@+id/btn_enter"
@@ -67,6 +67,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/btn_enter"
+            android:indeterminateTint="@color/white"
             android:layout_marginTop="20dp" />
 
         <TextView
